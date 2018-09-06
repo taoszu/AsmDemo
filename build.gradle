@@ -1,0 +1,5 @@
+apply plugin: 'java-library'
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.ow2.asm:asm:6.2"
+}
